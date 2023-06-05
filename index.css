@@ -1,0 +1,18 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.custom-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+
+@media(min-width: 768px) {
+    .news-input {
+       width: 50%; 
+    }
+}
